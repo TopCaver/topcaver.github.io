@@ -1,7 +1,7 @@
 ---
-title: [How to] go get through socks5 proxy
+title: go get through socks5 proxy
 tags: 技术 go
----  
+---
 
 go get 撞墙了，在`go get github.com/mattn/go-sqlite3` 的时候，绕过一道墙，然后go get 里面还有`git clone https://go.googlesource.com/net /Users/topcaver/code/go/src/golang.org/x/net` 这样的操作……
 
