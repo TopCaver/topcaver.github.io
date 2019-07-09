@@ -1,5 +1,5 @@
 ---
-title: MakerBot Error 65 : Thermocouple Communication failure
+title: MakerBot Error 65 ， Thermocouple Communication failure
 tags: 技术 3D打印 MakerBot
 --- 
 
