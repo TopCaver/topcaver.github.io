@@ -1,5 +1,5 @@
 ---
-title: How to: go get through socks5 proxy
+title: [How to] go get through socks5 proxy
 tags: 技术 go
 ---  
 
