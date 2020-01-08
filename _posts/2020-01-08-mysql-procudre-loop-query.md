@@ -6,11 +6,12 @@ tags: 技术 数据库 MySQL 存储过程
 最近年底PMO在度量项目的时候，需要查询某个项目ID对应的计数。但是一个格子会填几个ID
 
 类似这样 表： project_issue
-| id  | project |
-| ---- | ---- |
-| 1  | a,b  |
-| 2  | b,c  |
-| 3  | c,d,e  |
+
+|  id  | project |
+| ---- | ------- |
+|   1  |  a,b    |
+|   2  |  b,c    |
+|   3  |  c,d,e  |
 
 当统计某一个项目有多少条记录的时候，count(1) where project like ''， 但是PMO希望得到一个项目分组，a=1， b=2, c=2…… 这样的结果，这又不能单纯group by project。所以最后还是借用了临时表和存储过程，实现了循环查询。
 
