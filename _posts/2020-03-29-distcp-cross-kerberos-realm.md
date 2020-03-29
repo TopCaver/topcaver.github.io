@@ -105,10 +105,12 @@ hadoop distcp -D ipc.client.fallback-to-simple-auth-allowed=true /tmp/testfile h
 
 ### 2.2.2  创建krbtgt互信principal
 在两个集群的KDC上，运行kadmin.local
+
 > **注意：**
 >
 > 1. 密码要一致。
 > 2. **这两个 /域1@域2，是相反的。**
+
 ```bash
 kadmin.local:  addprinc krbtgt/CLUSTER-DEV@CLUSTER-PROD
 kadmin.local:  addprinc krbtgt/CLUSTER-PROD@CLUSTER-DEV
