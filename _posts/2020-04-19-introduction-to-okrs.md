@@ -23,8 +23,11 @@ https://vikaskyadav.github.io/Free-OReilly-Books/
 | 1.0      | 2020-04-06 | ZhangBo（[@TopCaver](https://github.com/TopCaver)） | 新建     |
 
 <!--more-->
+
 [TOC]
+
 -----
+
 # 第一章 介绍
 为什么人们会对OKR（目标和关键结果）报以如此的热情？说到底，OKR也只是一个目标管理方法。当硅谷的创业团队发现Google、LinkedIn、Twitter和Zynga这些成功的大公司背后都在搞OKR的时候，他们期望通过拥抱OKR，也能获取同样的成功。但这绝非易事，如何有效使用OKR工具，通常需要员工理解他们为了什么而工作。也有许多公司没能成功实施OKR，最后欣然放弃了。
 
