@@ -1,7 +1,7 @@
 ---
-title: Google Password Checkup 
+title: Google密码检测：Google不知道你的用户名密码，但它能告诉你的用户名密码已经泄漏了
 
-tags: google password checkup 密码
+tags: Google PasswordCheckup 密码 同态加密 PSI 不经意传输
 --- 
 
 译自Google Security Blog，[《Protect your accounts from data breaches with Password Checkup 》](https://security.googleblog.com/2019/02/protect-your-accounts-from-data.html)  
